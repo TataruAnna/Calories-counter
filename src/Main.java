@@ -8,6 +8,7 @@ public class Main {
         do {
             printMenu();
             option = scanner.nextInt();
+
             performSelectedAction(option, productCatalog, scanner);
         } while (option != 6);
 
